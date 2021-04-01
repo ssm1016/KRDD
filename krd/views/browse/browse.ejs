@@ -1,0 +1,30 @@
+<%- include('../common/header') %>
+
+<div class="menu-title">
+	<h2>Browse</h2>
+</div>
+<main>
+    <section>
+        <div class="container">
+           <div class="row">
+                <div class="filter-frame col-lg-12 col-md-12 py-1 text-left">
+                    Disease
+                        <select class="form-control select-sort mr-4">
+                            <option>HSP</option>
+                            <option>LGS</option>
+                            <option>TS</option>
+                            <option>MCD</option>
+                            <option>RP</option>
+                        </select>
+                    Browse by
+                        <select id="select-length-compound" class="form-control select-sort">
+                            <option>Gene</option>
+                            <option>Family</option>
+                            <option>Sample</option>
+                        </select>
+           </div>
+        </div> 
+    </section>    
+</main>
+
+<%- include('../common/footer') %>
